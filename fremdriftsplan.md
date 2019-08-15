@@ -2,7 +2,7 @@
 
 | Uke  | Tema                    | Beskrivelse                                         | Ekstra                                                       |
 | ---- | ----------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
-| 34   | Oppsett og intro        | | [YT: Intro to p5.js](https://www.youtube.com/watch?v=yPWkPOfnGsw&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&amp;index=2) |
+| 34   | Oppsett og intro        | [P5js-snippet]https://github.com/thorcc/p5js-snippets | [YT: Intro to p5.js](https://www.youtube.com/watch?v=yPWkPOfnGsw&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&amp;index=2) |
 | 35   | Variabler og operatorer |                                                     | [YT: Variabler og operatorer](<https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=8>) |
 | 36   | Tester                  |                                                     | [YT: Valg-setninger](<https://www.youtube.com/watch?v=1Osb_iGDdjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=14>) |
 | 37   | Løkker                  |                                                     | [YT: Løkker](<https://www.youtube.com/watch?v=cnRD9o6odjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=18>) |
