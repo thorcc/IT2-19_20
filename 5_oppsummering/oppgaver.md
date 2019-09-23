@@ -4,7 +4,7 @@
 
 ### Oppgave 1 - input
 
-Tips:
+Tips:  
 1.
 ```
   let variabel = prompt("Beskjed");
@@ -39,11 +39,10 @@ Tips: For å logge i konsollen: `console.log("beskjed" + variabel)`;
 
 ### Oppgave 3 - Arealkalkulator
 
-a. Rektangel: Lag et program der brukeren kan skrive inn bredde og høyde, så skal programme gange sammen sidene og gi en melding om arealet av rektangelet.
+1. Rektangel: Lag et program der brukeren kan skrive inn bredde og høyde, så skal programme gange sammen sidene og gi en melding om arealet av rektangelet.
+2. Areal og sirkel: Legg til funksjonalitet slik at brukeren først kan skrive inn om figuren er et rektangel eller en sirkel, deretter bredde, høyde eller radius og til slutt skal brukeren få en beskjed med arealet av figuren sin.
 
-b. Areal og sirkel: Legg til funksjonalitet slik at brukeren først kan skrive inn om figuren er et rektangel eller en sirkel, deretter bredde, høyde eller radius og til slutt skal brukeren få en beskjed med arealet av figuren sin.
-
-Tips:
+Tips:  
 1.
 ```
   if(figur === "firkant"){
@@ -61,24 +60,24 @@ Tips:
 ### Oppgave 4 - Spørreprogram
 
 Du skal lage et spørreprogram som stiller spørsmål du velger selv.  
-a. Lag et spørreprogram som har et spørsmål, bruk alert til å gi brukeren beskjed om svaret var riktig eller galt.  
-b. Lag minst fire spørsmål og opprett en variabel som holder kontroll på hvor mange riktige brukeren har. Når brukeren har svart på alle spørsmålene skal det dukke opp en beskjed med hvor mange poeng brukeren fikk sammen med en kommentar på hvor bra det gikk.  
+1. Lag et spørreprogram som har et spørsmål, bruk alert til å gi brukeren beskjed om svaret var riktig eller galt.  
+2. Lag minst fire spørsmål og opprett en variabel som holder kontroll på hvor mange riktige brukeren har. Når brukeren har svart på alle spørsmålene skal det dukke opp en beskjed med hvor mange poeng brukeren fikk sammen med en kommentar på hvor bra det gikk.  
 
 
 ## Løkker
 
 ### Oppgave 5 - Enkle løkker
-a. Lag en løkke og skriv ut tallene fra 1 til 10 i konsollen.
-b. Lag en løkke og skriv ut 7 gangen i konsollen.
-c. Skriv ut summen av alle tallene mellom 1 og 1000 i konsollen.
-d. Skriv ut alle partallene mellom 1 og 100 i konsollen.  
+1. Lag en løkke og skriv ut tallene fra 1 til 10 i konsollen.
+2. Lag en løkke og skriv ut 7 gangen i konsollen.
+3. Skriv ut summen av alle tallene mellom 1 og 1000 i konsollen.
+4. Skriv ut alle partallene mellom 1 og 100 i konsollen.  
 
 Tips: For å sjekke om et tall er partall, bruk en if-setning og sjekk `tall % 2 === 0`.
 
 ### Oppgave 6 - Tegning med P5
-a. Tegn ti sirkler ved siden av hverandre på et P5-canvas
-b. Tegn ti sirkler ti sirkler ved siden av hverandre og ti under hverandre på et canvas
-c. Tegn 100 sirkler i et rutenett med ti i bredden og ti i høyden.
+1. Tegn ti sirkler ved siden av hverandre på et P5-canvas  
+2. Tegn ti sirkler ti sirkler ved siden av hverandre og ti under hverandre på et canvas  
+3. Tegn 100 sirkler i et rutenett med ti i bredden og ti i høyden.
 
 ### Oppgave 7 - Den lille gangetabellen
 Lag den lille gangetabellen med en dobbel for-løkke, og skriv ut tallene på et canvas.
