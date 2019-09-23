@@ -4,6 +4,10 @@
 
 ### Oppgave 1 - input
 
+a. Lag et program hvor brukeren skriver inn navnet sitt også dukker det opp en melding på skjermen som starter med "Hei" + navn på bruker.
+
+b. Utvid programmet slik at brukeren også skriver inn alder, deretter skal det dukke opp en melding om hvor mange år det er igen til brukeren er 50.
+
 Tips:  
 1.
 ```
@@ -12,11 +16,6 @@ Tips:
 ```
 2. Det er også mulig med flere `prompt()` og `alert()`.
 3. Husk riktig datatype. For å konvertere til tall: `Number(tekst);`.
-
-
-a. Lag et program hvor brukeren skriver inn navnet sitt også dukker det opp en melding på skjermen som starter med "Hei" + navn på bruker.
-
-b. Utvid programmet slik at brukeren også skriver inn alder, deretter skal det dukke opp en melding om hvor mange år det er igen til brukeren er 50.
 
 ## if-setninger
 
