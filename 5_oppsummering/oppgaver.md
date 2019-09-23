@@ -83,6 +83,8 @@ c. Tegn 100 sirkler i et rutenett med ti i bredden og ti i høyden.
 ### Oppgave 7 - Den lille gangetabellen
 Lag den lille gangetabellen med en dobbel for-løkke, og skriv ut tallene på et canvas.
 
+## Ekstra
+
 ### Oppgave 8 - Hour of code
 Bruk 30 min på hour of code, http://silentteacher.toxicode.fr/hourofcode
 
