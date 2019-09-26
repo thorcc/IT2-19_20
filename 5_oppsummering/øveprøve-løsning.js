@@ -118,7 +118,7 @@ function setup(){
 
 function draw(){
   background(220);
-  
+
   for(let i = 1; i<=10; i = i + 1){
     circle(i * 10, 50, 25);
   }
@@ -198,42 +198,18 @@ else{
   alert("Ukjent figur");
 }
 
-// Oppgave 5 - Kalkulator (Kan også gjøres på PC)
-/*
-Lag en kalkulator der brukeren kan taste inn to tall, og velge regneoperasjon (+,-,*,/).
-Tips: Her må du bruke tre prompts().
-*/
 
-let tall1 = Number(prompt("Skriv inn tall 1"));
-let tall2 = Number(prompt("Skriv inn tall 2"));
-let operasjon = prompt("Skriv inn regneoperasjon");
-
-if(operasjon === "+"){
-  alert(tall1 + " " + operasjon + " " + tall2 + " = " + (tall1 + tall2));
-}
-else if (operasjon === "-") {
-  alert(tall1 + " " + operasjon + " " + tall2 + " = " + (tall1 - tall2));
-}
-else if (operasjon === "*") {
-  alert(tall1 + " " + operasjon + " " + tall2 + " = " + (tall1 * tall2));
-}
-else if (operasjon === "/") {
-  alert(tall1 + " " + operasjon + " " + tall2 + " = " + (tall1 / tall2));
-}
-else{
-  alert("Ukjent regneoperasjon");
-}
 /*
 Ekstraoppgaver på PC
 
 ### Oppgave 6 - Spørreprogram
 
 Du skal lage et spørreprogram som stiller spørsmål du velger selv.
-1. Lag et spørreprogram som har et spørsmål, bruk alert til å gi brukeren 
+1. Lag et spørreprogram som har et spørsmål, bruk alert til å gi brukeren
 beskjed om svaret var riktig eller galt.
-2. Lag minst fire spørsmål og opprett en variabel som holder kontroll på 
-hvor mange riktige brukeren har. Når brukeren har svart på alle spørsmålene 
-skal det dukke opp en beskjed med hvor mange poeng brukeren fikk sammen 
+2. Lag minst fire spørsmål og opprett en variabel som holder kontroll på
+hvor mange riktige brukeren har. Når brukeren har svart på alle spørsmålene
+skal det dukke opp en beskjed med hvor mange poeng brukeren fikk sammen
 med en kommentar på hvor bra det gikk.
 
 Oppgave 7 - Hour of code
