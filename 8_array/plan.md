@@ -1,18 +1,19 @@
 # 8 - Array
 
-### Definere en array
+
+#### Definere en array
 `let minArray = ["Thor","Harald","Per"];`
 
-### Hente ut verdi fra array
+#### Hente ut verdi fra array
 `minArray[1] // Harald`
 
-### Endre en verdi i et array
+#### Endre en verdi i et array
 `minArray[2] = "Pål";`
 
-### Lengden på et array
+#### Lengden på et array
 `minArray.length // 3`
 
-### Array-metoder
+#### Array-metoder
 `minArray.push("Jens"); // Legger til en verdi i en array`
 `minArray.splice() // Fjerner en verdi i en array`
 
