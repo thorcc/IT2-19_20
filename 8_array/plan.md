@@ -1,5 +1,20 @@
 # 8 - Array
 
+## Ressurser
+- Kode2: 8.1 og 8.2
+- Coding train
+- Scrimba
+
+## Eksempler
+- Input til array s. 202
+
+## Oppgaver
+- Prøv selv s. 206
+- Prøv selv s. 210
+
+## Kodesnakk
+
+## Array
 
 #### Definere en array
 `let minArray = ["Thor","Harald","Per"];`
@@ -16,17 +31,3 @@
 #### Array-metoder
 `minArray.push("Jens"); // Legger til en verdi i en array`
 `minArray.splice() // Fjerner en verdi i en array`
-
-## Ressurser
-- Kode2: 8.1 og 8.2
-- Coding train
-- Scrimba
-
-## Eksempler
-- Input til array s. 202
-
-## Oppgaver
-- Prøv selv s. 206
-- Prøv selv s. 210
-
-## Kodesnakk
