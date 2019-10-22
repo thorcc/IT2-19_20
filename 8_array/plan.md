@@ -13,6 +13,7 @@
 - Prøv selv s. 210
 
 ## Kodesnakk
+https://gitspeak.com/kodesnakk/
 
 ## Array
 
