@@ -189,8 +189,8 @@ if(figur === "sirkel"){
   alert("Arealet er: " + (Math.PI * r * r));
 }
 else if(figur === "rektangel"){
-  let hoyde = prompt("Hva er høyden?");
-  let bredde = prompt("Hva er bredden?");
+  let hoyde = Number(prompt("Hva er høyden?"));
+  let bredde = Number(prompt("Hva er bredden?"));
 
   alert("Arealet er: " + (hoyde * bredde));
 }
