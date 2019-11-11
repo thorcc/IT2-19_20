@@ -14,9 +14,9 @@ Relevante filmer:
 - [7.7: Object Communication Part 2](https://www.youtube.com/watch?v=5Q9cA0REztY&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=34)
 
 ## 1. Agar
-[Agar.io](Agar.io) er et MMO-spill skapt av Matheus Valadares. I spillet styrer spillerne celler på en bane som forestiller en petriskål. Målet i spillet er å bli så stor som mulig ved å spise andre celler uten å bli spist av celler som er større enn ens egen. Navnet på spillet kommer fra stoffet agar, som blir brukt til å dyrke bakterier. [Wiki](https://no.wikipedia.org/wiki/Agar.io)
+[Agar.io](https://Agar.io) er et MMO-spill skapt av Matheus Valadares. I spillet styrer spillerne celler på en bane som forestiller en petriskål. Målet i spillet er å bli så stor som mulig ved å spise andre celler uten å bli spist av celler som er større enn ens egen. Navnet på spillet kommer fra stoffet agar, som blir brukt til å dyrke bakterier. [Wiki](https://no.wikipedia.org/wiki/Agar.io)  
 
-![Bilde av agar](https://upload.wikimedia.org/wikipedia/commons/8/80/Agar.io-clone_screenshot.png)
+![Bilde av agar](https://upload.wikimedia.org/wikipedia/commons/8/80/Agar.io-clone_screenshot.png)  
 [(Wikimedia, 2019)](https://commons.wikimedia.org/wiki/File:Agar.io-clone_screenshot.png)
 
 ## 2 Programkode for Agar
