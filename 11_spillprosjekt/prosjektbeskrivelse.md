@@ -1,12 +1,14 @@
 # Spillprosjekt
 
-Lag et spill i nettleseren. Spillet skal skrives i HTML, CSS og Javascript.
+Lag et spill som kan kjøres i nettleseren. Spillet skal lages med HTML, CSS og Javascript. P5 og andre biblioteker kan brukes.
 
-Tips til spill du kan lage:
+Tema for spillet er valgfritt. Pass på at du ikke begynner på et for omfattende og avansert spill. Vurderingskriterier er vedlagt, sjekk disse før du leverer.
+
+Tips til spill som passer til nivået i IT2:
 
 - Hangman
-- Flappy bird
 - Cookie clicker
+- Flappy bird
 
 ## Plan
 
