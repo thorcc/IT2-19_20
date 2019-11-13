@@ -14,8 +14,8 @@ Tips til spill som passer til nivået i IT2:
 
 | Dato  | Plan        |                                              |
 | ----- | ----------- | -------------------------------------------- |
-| 20.11 | Fagdag      |                                              |
-| 27.11 | Fagdag      |                                              |
+| 19.11 | Fagdag      |                                              |
+| 26.11 | Fagdag      |                                              |
 | 29.11 | Innlevering | Ferdig spill leveres som en .zip-fil på its. |
 
 ## Vurderingskriterier
