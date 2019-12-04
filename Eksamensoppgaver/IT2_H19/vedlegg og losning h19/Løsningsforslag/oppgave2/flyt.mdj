@@ -1,0 +1,292 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFuoc9ie5iuqQI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFuoc9ie5ivNCQ=",
+					"_parent": {
+						"$ref": "AAAAAAFuoc9ie5iuqQI="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFuodA1eZi1Pfo=",
+							"_parent": {
+								"$ref": "AAAAAAFuoc9ie5ivNCQ="
+							},
+							"model": {
+								"$ref": "AAAAAAFuodA1eZiz/Uw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFuodA1epi2rf8=",
+									"_parent": {
+										"$ref": "AAAAAAFuodA1eZi1Pfo="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 106,
+									"width": 133,
+									"height": 26,
+									"text": "Bruker trykker på 'beregn kaloriforbruk'",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 96,
+							"width": 153,
+							"height": 57,
+							"nameLabel": {
+								"$ref": "AAAAAAFuodA1epi2rf8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFuodFY8ZjCVVE=",
+							"_parent": {
+								"$ref": "AAAAAAFuoc9ie5ivNCQ="
+							},
+							"model": {
+								"$ref": "AAAAAAFuodFY8ZjAWoo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFuodFY8ZjDwAs=",
+									"_parent": {
+										"$ref": "AAAAAAFuodFY8ZjCVVE="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 210,
+									"width": 133,
+									"height": 78,
+									"text": "Regn ut kaloriforbuk. ved å gange kaloriforbuk med aktivitet, intensitetsnivå og minutter",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 200,
+							"width": 153,
+							"height": 98,
+							"nameLabel": {
+								"$ref": "AAAAAAFuodFY8ZjDwAs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFuodOUxJjPG6w=",
+							"_parent": {
+								"$ref": "AAAAAAFuoc9ie5ivNCQ="
+							},
+							"model": {
+								"$ref": "AAAAAAFuodOUw5jN92I="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFuodOUxJjQEzw=",
+									"_parent": {
+										"$ref": "AAAAAAFuodOUxJjPG6w="
+									},
+									"model": {
+										"$ref": "AAAAAAFuodOUw5jN92I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 169,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFuodOUxJjPG6w="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFuodFY8ZjCVVE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFuodA1eZi1Pfo="
+							},
+							"lineStyle": 2,
+							"points": "244:152;244:200",
+							"nameLabel": {
+								"$ref": "AAAAAAFuodOUxJjQEzw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFuodOkB5jYiE0=",
+							"_parent": {
+								"$ref": "AAAAAAFuoc9ie5ivNCQ="
+							},
+							"model": {
+								"$ref": "AAAAAAFuodOkB5jWLjE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFuodOkB5jZJDI=",
+									"_parent": {
+										"$ref": "AAAAAAFuodOkB5jYiE0="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 338,
+									"width": 133,
+									"height": 13,
+									"text": "Skriv ut svar",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 328,
+							"width": 153,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFuodOkB5jZJDI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFuodPTBZjjOss=",
+							"_parent": {
+								"$ref": "AAAAAAFuoc9ie5ivNCQ="
+							},
+							"model": {
+								"$ref": "AAAAAAFuodPTBJjhth0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFuodPTBZjk+cU=",
+									"_parent": {
+										"$ref": "AAAAAAFuodPTBZjjOss="
+									},
+									"model": {
+										"$ref": "AAAAAAFuodPTBJjhth0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 305,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFuodPTBZjjOss="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFuodOkB5jYiE0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFuodFY8ZjCVVE="
+							},
+							"lineStyle": 2,
+							"points": "244:297;244:328",
+							"nameLabel": {
+								"$ref": "AAAAAAFuodPTBZjk+cU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFuodA1eZiz/Uw=",
+					"_parent": {
+						"$ref": "AAAAAAFuoc9ie5iuqQI="
+					},
+					"name": "Bruker trykker på 'beregn kaloriforbruk'",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFuodOUw5jN92I=",
+							"_parent": {
+								"$ref": "AAAAAAFuodA1eZiz/Uw="
+							},
+							"source": {
+								"$ref": "AAAAAAFuodA1eZiz/Uw="
+							},
+							"target": {
+								"$ref": "AAAAAAFuodFY8ZjAWoo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFuodFY8ZjAWoo=",
+					"_parent": {
+						"$ref": "AAAAAAFuoc9ie5iuqQI="
+					},
+					"name": "Regn ut kaloriforbuk. ved å gange kaloriforbuk med aktivitet, intensitetsnivå og minutter",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFuodPTBJjhth0=",
+							"_parent": {
+								"$ref": "AAAAAAFuodFY8ZjAWoo="
+							},
+							"source": {
+								"$ref": "AAAAAAFuodFY8ZjAWoo="
+							},
+							"target": {
+								"$ref": "AAAAAAFuodOkB5jWLjE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFuodOkB5jWLjE=",
+					"_parent": {
+						"$ref": "AAAAAAFuoc9ie5iuqQI="
+					},
+					"name": "Skriv ut svar"
+				}
+			]
+		}
+	]
+}

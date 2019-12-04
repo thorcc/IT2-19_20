@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.css">
+    <style media="screen">
+      .app{
+        width: 500px;
+        margin: auto;
+      }
+      button{
+        background-color: lightgrey;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="app">
+      <h1>Treningshjelperen</h1>
+      <div class="divButtons">
+
+      </div>
+      <div class="divOvelser">
+
+      </div>
+      <div class="divValg">
+        <p>Valgt muskelgruppe: <b><span id="spGruppe">Velg en gruppe</span></b></p>
+        <p>Valgt øvelse: <b><span id="spOvelse">Velg en øvelse</span></b></p>
+        <p>Antall repetisjoner: <input disabled id="inpReps" type="number" name="" value=""></p>
+        <p>Motstand: <input disabled id="inpMotstand" type="number" name="" value=""></p>
+        <button disabled id="btnLeggTil" type="button" name="button">Legg til øvelse</button>
+      </div>
+      <div class="divOkt">
+        <table id="tOkt">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Gruppe</th>
+              <th>Øvelse</th>
+              <th>Reps</th>
+              <th>Motstand</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+        <div class="divTotal">
+          <p>Total motstand: <b><span id="spMostand">0 kg</span></b></p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="./script.js" charset="utf-8"></script>
+  </body>
+</html>

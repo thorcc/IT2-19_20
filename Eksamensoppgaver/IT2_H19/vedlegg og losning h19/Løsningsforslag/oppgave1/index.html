@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Oppgave 1</title>
+    <style media="screen">
+      map *{
+        cursor: grab;
+      }
+      .app{
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+        width: 607px;
+      }
+      #overskrift{
+        text-align: center;
+      }
+      #tekst{
+        position: absolute;
+        left: -50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <h1 id="overskrift">Muskler</h1>
+      <h1 id="tekst">Muskelgruppe</h1>
+      <img src="./vedlegg/kropp.gif" alt="" usemap="#muskler">
+    </div>
+
+
+    <map name="muskler">
+      <area id="brede-ryggmuskel" shape="rect" coords="300,200,400,250" alt="Brede ryggmuskel">
+      <area id="armstrekkeren" shape="rect" coords="350,150,500,200" alt="Brede ryggmuskel">
+    </map>
+
+      <audio id="lyd-arm" src="./vedlegg/armstrekkeren.mp3"></audio>
+      <audio id="lyd-rygg" src="./vedlegg/brede_ryggmuskel.mp3"></audio>
+    <script src="./script.js" charset="utf-8"></script>
+  </body>
+</html>
