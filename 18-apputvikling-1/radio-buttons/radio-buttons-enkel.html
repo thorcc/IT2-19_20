@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio buttons</title>
+</head>
+<body>
+
+    <label for="rbJa">Ja</label>
+    <input id="rbJa" type="radio" name="valg" value="ja">
+    <label for="rbNei">Nei</label>
+    <input id="rbNei" type="radio" name="valg" value="nei">
+
+    <div id="info">Info kommer her</div>
+
+
+    <script>
+        const rbJa = document.querySelector("#rbJa");
+        const rbNei = document.querySelector("#rbNei");
+        const info = document.querySelector("#info");
+
+        function sjekkJaNei(){
+            if(rbJa.checked){
+                info.innerHTML = "Du har valgt ja";
+            }
+            else if(rbNei.checked){
+                info.innerHTML = "Du har valgt nei";
+            }
+            else{
+                info.innerHTML = "Du har ikke valgt noen";
+            }
+        }
+
+        rbJa.onclick = sjekkJaNei;
+        rbNei.onclick = sjekkJaNei;
+    </script>
+</body>
+</html>
