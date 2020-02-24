@@ -1,0 +1,25 @@
+body{
+    background-image: url("vedlegg/moon-1024.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tekstOgFilm{
+    height: 100vh; /* tekstOgFil skal ta hele bredden. */
+    display: flex; /* display:flex; for å midstille i bredden og høyden*/
+    flex-direction: column; /* tekst og film skal ligge under hverandre */
+    justify-content: center; /* Midstiller innholdet i tekst og film i bredden */
+    align-items: center; /* Midstiller innholdet i tekst og film i høyden */
+}
+#rakett{
+    position: absolute; /* Plasserer raketten absolutt, relativt til hele nettleseren (pga. ingen parent-elementer har position: relative; */
+    left: 5%;
+    bottom: 0%;
+}
+#video{
+    max-width: 100%;
+}
+p{
+    font-size: 2rem;
+}
