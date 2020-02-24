@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ukraina Zoom</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #bilderamme{
+            width: 900px;
+            margin: auto;
+            overflow: hidden;
+            border: 1px solid dimgray;
+        }
+        #kart{
+            width: 900px;
+            cursor: zoom-in;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="flag.gif" alt="">
+        <h1>Ukraina</h1>
+    </div>
+
+    <div id="bilderamme">
+        <img id="kart" src="./ukraina.jpg" alt="Kart over Ukraina">
+    </div>
+    
+    <script>
+        const bilderamme = document.querySelector("#bilderamme");
+        const kart = document.querySelector("#kart");
+        
+        kart.onmousemove = function(event){
+            kart.style.width = "2545px"; // Zoomer inn
+            kart.style.marginLeft = 1.83*(-event.clientX + bilderamme.offsetLeft) + "px";
+            kart.style.marginTop = 1.83*(-event.clientY + bilderamme.offsetTop) + "px";
+        }
+        kart.onmouseout = function(event){
+            kart.style.width = "900px"; // Zoomer ut
+            kart.style.marginLeft = 0;
+            kart.style.marginTop = 0;
+        }
+
+    </script>
+</body>
+</html>
