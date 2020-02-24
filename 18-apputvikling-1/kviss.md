@@ -11,7 +11,8 @@
 
 ## Bonus
 
--   [ ] Tiden det tok å fullføre kvissen
+-   [ ] Når kvissen er ferdig kan brukeren se følgende statistikk: 
+    - Tiden det tok å fullføre kvissen
 -   [ ] Legg til flere spørsmålskategorier, brukeren kan velge kategori
 -   [ ] Bruk `fetch` til å hente tilfeldige spørsmål fra [Open Trivia Database](https://opentdb.com/api_config.php)
 

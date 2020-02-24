@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kviss</title>
+</head>
+<body>
+
+    <button id="btnLoad">Load quiz</button>
+    
+    <script>
+        const btnLoad = document.querySelector("#btnLoad");
+
+        let questions = []; // Tom array som skal fylles med spørsmål
+
+        async function fetchQuiz(){
+            const res = await fetch('https://opentdb.com/api.php?amount=10');
+            const json = await res.json();
+            return json.results;
+        }
+
+        btnLoad.onclick = async function(){
+            questions = await fetchQuiz();
+            console.log(questions);
+        }
+
+        
+    </script>
+</body>
+</html>
