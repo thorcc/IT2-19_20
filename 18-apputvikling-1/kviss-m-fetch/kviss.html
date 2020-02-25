@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/css/foundation-float.min.css">
+    <title>Kviss</title>
+
+    <style>
+        #app{
+            text-align: center;
+        }
+        button{
+            display: block;
+            background-color: #555555;
+            border: 2px solid #555555;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+        #divQuestion{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+
+        <button id="btnLoad">Start quiz</button>
+
+        <div id="divQuestion">
+            <p id="qText">Loading question..</p>
+            <form>
+
+            </form>
+        </div>
+
+    </div>
+
+
+    <script>
+        const btnLoad = document.querySelector("#btnLoad");
+        const form = document.querySelector("form");
+        const qText = document.querySelector("#qText");
+        const divQuestion = document.querySelector("#divQuestion");
+
+        let questions = []; // Tom array som skal fylles med spørsmål
+        let questionNum = 0; // Et tall som bestemmer hvilket spørsmål som vises
+        let correct = 0;
+        let wrong = 0;
+
+        async function fetchQuiz() {
+            const res = await fetch('https://opentdb.com/api.php?amount=10&type=multiple');
+            const json = await res.json();
+            return json.results;
+        }
+
+        btnLoad.onclick = async function () {
+            btnLoad.style.display = "none";
+            divQuestion.style.display = "block"; // Viser divSpørsmål, før spørsmålene er hentet står det loading...
+            questions = await fetchQuiz(); // Henter spørsmål
+            console.log(questions);
+            showQuestion(questions[questionNum]); // Viser et spørsmål
+        }
+
+        function showQuestion(question){
+            qText.innerHTML = question.question;
+            form.innerHTML = `
+                <input type="radio" name="quiz" value="${question.correct_answer}">
+                <label>${question.correct_answer}</label>
+                <input type="radio" name="quiz" value="${question.incorrect_answers[0]}">
+                <label>${question.incorrect_answers[0]}</label>
+                <input type="radio" name="quiz" value="${question.incorrect_answers[1]}">
+                <label>${question.incorrect_answers[1]}</label>
+                <input type="radio" name="quiz" value="${question.incorrect_answers[2]}">
+                <label>${question.incorrect_answers[2]}</label>
+                <br>
+                <button type="submit">Submit</button>
+            `
+        };
+
+        form.onsubmit = function (event){
+            event.preventDefault();
+
+            if (form.quiz.value === questions[questionNum].correct_answer){
+                correct += 1;
+            } else{
+                wrong += 1;
+            }
+
+            questionNum += 1;
+
+            if (questionNum < questions.length){
+                showQuestion(questions[questionNum]);
+            } else{
+                alert("correct: " + correct + " wrong: " + wrong);
+                btnLoad.style.display = "block";
+                questionNum = 0;
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
