@@ -1,13 +1,11 @@
 # 9. juni - [Node.js](https://nodejs.org/en/)
 
-## Installering
-
-[Node.js](https://nodejs.org/en/) gjør at vi kan kjøre javascript uten en nettleser. Brukes for det meste for å programmere servere.
+Node gjør at vi kan kjøre javascript uten en nettleser. Brukes for det meste for å programmere servere.
 [Les mer om Node.js her](https://no.wikipedia.org/wiki/Node.js).  
 
-I dag skal vi lage en eget web-server med Node og [express](https://expressjs.com/).
+I dag skal vi lage en egen web-server med Node og [express](https://expressjs.com/).
 
-### Instrukser
+## Installering av node
 
 1. Last ned og innstaller node fra [Node.js](https://nodejs.org/en/download/).
 2. Åpne opp terminal på mac eller powershell på windows
