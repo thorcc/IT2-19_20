@@ -1,5 +1,7 @@
 # Veien videre
 
+[Developer roadmap](https://github.com/kamranahmedse/developer-roadmap)
+
 ## Hva har dere lært:
 
 Gjennom IT1 og IT2 på vgs har dere lært:
