@@ -1,10 +1,8 @@
 # Veien videre
 
-[Developer roadmaps (roadmap.sh)](https://roadmap.sh/)
+## IT1 og IT2
 
-## Hva har dere lært:
-
-Gjennom IT1 og IT2 har dere blant annet lært:
+I IT1 og IT2 har dere blant annet lært:
 
 - Front-end
   - HTML
@@ -15,7 +13,7 @@ Gjennom IT1 og IT2 har dere blant annet lært:
 - Back-end
   - NoSQL-Databaser (firebase)
 
-## Veien videre:
+## Veien videre
 
 Forslag til veier videre:  
 
