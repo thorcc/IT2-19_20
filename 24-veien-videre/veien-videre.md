@@ -1,6 +1,6 @@
 # Veien videre
 
-[Developer roadmap](https://github.com/kamranahmedse/developer-roadmap)
+[Developer roadmaps (roadmap.sh)](https://roadmap.sh/)
 
 ## Hva har dere lært:
 
