@@ -4,7 +4,7 @@
 
 ## Hva har dere lært:
 
-Gjennom IT1 og IT2 på vgs har dere lært:
+Gjennom IT1 og IT2 har dere blant annet lært:
 
 - Front-end
   - HTML
@@ -28,11 +28,15 @@ Gjennom IT1 og IT2 på vgs har dere lært:
      - Apputvikling
        - Swift (iphone)
        - Java  (android)
+   - +++
 
    - Back-end
      - Node.js
      - Python
        - Flask
+       - Django
+       - ++
+   - +++
 
 
 2. Maskinlæring (AI)
