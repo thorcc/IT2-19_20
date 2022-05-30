@@ -1,5 +1,7 @@
 # Veien videre
 
+[Developer roadmaps (roadmap.sh)](https://roadmap.sh/)
+
 ## IT1 og IT2
 
 I IT1 og IT2 har dere blant annet lært:
