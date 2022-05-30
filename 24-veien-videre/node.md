@@ -1,4 +1,4 @@
-# 9. juni - [Node.js](https://nodejs.org/en/)
+# Veien videre - [Node.js](https://nodejs.org/en/)
 
 Node gjør at vi kan kjøre javascript uten en nettleser. Brukes for det meste for å programmere servere.
 [Les mer om Node.js her](https://no.wikipedia.org/wiki/Node.js).  
@@ -9,7 +9,7 @@ I dag skal vi lage en egen web-server med Node og [express](https://expressjs.co
 
 1. Last ned og innstaller node fra [Node.js](https://nodejs.org/en/download/).
 2. Åpne opp terminal på mac eller powershell på windows
-3. Skriv `node -v` og trykk enter, du skal nå få `v12.18.0` svar i terminalen.
+3. Skriv `node -v` og trykk enter, du skal nå få `vXX.XX` svar i terminalen.
 
 ## Opprette et prosjekt
 
