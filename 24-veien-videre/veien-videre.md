@@ -17,6 +17,8 @@ Gjennom IT1 og IT2 har dere blant annet lært:
 
 ## Veien videre:
 
+Forslag til veier videre:  
+
 1. Web
 
    - Front-end
